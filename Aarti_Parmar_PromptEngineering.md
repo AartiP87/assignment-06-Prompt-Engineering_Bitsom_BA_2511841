@@ -1,7 +1,7 @@
 # Prompt Engineering Portfolio
 Name: [Aarti Parmar]
 Date: [06/06/2026]
-LLM Used: ChatGPT (GPT-5.5)
+LLM Used: ChatGPT (GPT-5.3 mini)
 
 ##Part 1: Prompt Design & Iteration
 ## Scenario A: Technical Explanation
