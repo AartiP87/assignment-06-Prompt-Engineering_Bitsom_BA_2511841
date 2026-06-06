@@ -3,8 +3,8 @@ Name: [Aarti Parmar]
 Date: [06/06/2026]
 LLM Used: ChatGPT (GPT-5.3 mini)
 
-##Part 1: Prompt Design & Iteration
-## Scenario A: Technical Explanation
+## Part 1: Prompt Design & Iteration
+### Scenario A: Technical Explanation
 
 ### Goal
 
@@ -46,7 +46,7 @@ In short: A neural network is like a team of tiny detectives that work together 
 
 ---
 
-## Scenario B: Professional Email
+### Scenario B: Professional Email
 
 ### Goal
 
@@ -86,7 +86,7 @@ Kind regards,
 
 ---
 
-## Scenario C: Creative Content
+### Scenario C: Creative Content
 
 ### Goal
 
@@ -120,7 +120,7 @@ You are an award-winning brand copywriter. Create 10 memorable marketing tagline
 
 ---
 
-# 1.2 Iteration Documentation
+### 1.2 Iteration Documentation
 
 ## Scenario A: Technical Explanation- Neural Networks Explanation
 
@@ -152,16 +152,16 @@ You are an award-winning brand copywriter. Create 10 memorable marketing tagline
 
 ---
 
-# 1.3 Role and Context Usage
+### 1.3 Role and Context Usage
 For Scenario 1 (Neural Networks Explanation) and Scenario 3 (Marketing Taglines), role assignment and context setting significantly improved the quality of the outputs. In Scenario 1, assigning the role of an experienced elementary school science teacher and specifying that the audience was a 10-year-old child helped generate a simpler, more engaging explanation using age-appropriate language, analogies, and examples. In Scenario 3, assigning the role of an award-winning brand copywriter and providing context about a premium eco-friendly water bottle brand targeting environmentally conscious young adults resulted in taglines that were more creative, audience-focused, and aligned with modern branding practices.
 
 Role assignment guided the model to adopt the appropriate expertise and communication style, while context setting provided important background information about the audience, purpose, and desired outcome. Together, these techniques produced outputs that were more relevant, targeted, and effective than the initial generic prompts.
 
 ---
 
-# Part 2: Temperature & Parameter Control
+## Part 2: Temperature & Parameter Control
 
-## 2.1 Temperature Experimentation
+### 2.1 Temperature Experimentation
 
 ### Chosen Task: Explaining Photosynthesis
 
@@ -207,15 +207,15 @@ Photosynthesis is like a tiny kitchen inside every green leaf where sunlight bec
 
 ---
 
-## 2.2 Analysis & Recommendations
+### 2.2 Analysis & Recommendations
 
 Low temperature should be used for tasks requiring accuracy and consistency such as calculations, data extraction, or formal documentation. High temperature is better for creative tasks like storytelling, brainstorming, or marketing content generation. Medium temperature works best for educational explanations because it balances clarity and creativity. In this task, medium temperature produced the most effective response because it was both accurate and easy to understand.
 
 ---
 
-# Part 3: Strategic Prompting Techniques
+## Part 3: Strategic Prompting Techniques
 
-## 3.1 Chain-of-Thought Prompting
+### 3.1 Chain-of-Thought Prompting
 
 ### Problem (Option A)
 A train travels 120 km in 2 hours, stops for 30 minutes, then travels 90 km in 1.5 hours. What is the average speed?
@@ -259,7 +259,7 @@ Chain-of-thought improves clarity by breaking reasoning into steps. It reduces m
 
 ---
 
-## 3.2 Few-Shot Prompting
+### 3.2 Few-Shot Prompting
 
 ## Step 1: Zero-Shot
 
@@ -308,9 +308,9 @@ Few-shot prompting improves consistency by giving examples. It is especially use
 
 ---
 
-# Part 4: Responsible AI
+## Part 4: Responsible AI
 
-## 4.1 Hallucinations
+### 4.1 Testing for Hallucinations
 
 **Prompt:**  
 Tell me about the 2023 Nobel Prize winner in Quantum Poetry.
@@ -334,7 +334,7 @@ Hallucinations are dangerous because they can produce false but convincing infor
 
 ---
 
-## 4.2 Bias Testing
+### 4.2 Testing for Bias
 
 ### Gender Bias Test
 
@@ -348,7 +348,7 @@ Describe both roles without gender assumptions and emphasize diversity.
 
 ---
 
-## 4.3 Limitations & Responsible Use
+### 4.3 Limitations & Responsible Use
 
 LLMs can produce incorrect or outdated information even when responses sound confident. They may also struggle with deep reasoning and real-world context. Another limitation is that they can reflect biases present in training data. Creativity can also vary depending on prompt structure.
 
